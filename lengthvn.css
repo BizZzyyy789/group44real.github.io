@@ -1,0 +1,185 @@
+
+body {
+    /* position: relative; */
+    background: url("https://cdn.pixabay.com/photo/2016/11/21/03/56/landscape-1844226_1280.png");
+  }
+  h1{
+    color:rgba(237, 240, 243, 0.774);
+    font-weight: 900;
+    background:url("https://cdn.pixabay.com/photo/2016/11/21/03/56/landscape-1844226_1280.png");
+    text-align: center;
+    font-style:italic;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 1), 
+    0px 0px 10px rgb(204, 152, 152), 
+    0px 0px 15px rgb(235, 218, 218),
+    0px 0px 20px rgb(184, 93, 139),
+    0px 0px 30px rgb(228, 187, 221),
+    0px 0px 40px rgb(247, 192, 192),
+    0px 0px 55px rgb(190, 113, 113),
+    0px 0px 75px rgb(156, 60, 60);
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  }
+  .S1{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .S11{
+    border-radius: 10px;
+    position: relative;
+    height: 300px;
+    background:url("https://cdn.pixabay.com/photo/2016/11/21/03/56/landscape-1844226_1280.png");
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+  }
+ #G2{
+    position: absolute;
+    margin-top: -30%;
+    width: 600px;
+    height: 35px;
+    border-radius: 5px;
+    color: #0c0101;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+  }
+#G2::placeholder{
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: left;
+    color: rgb(8, 0, 0);
+}
+ #G3{
+    margin-top: -17%;
+    position: absolute;
+    left:  6.7%;
+    font-weight: 900;
+    
+ }
+ .button{
+    top:65%;  
+    position: relative;
+    background:url("https://cdn.pixabay.com/photo/2016/11/21/03/56/landscape-1844226_1280.png");
+    border-radius: 4em;
+    font-size: 16px;
+    color: white;
+    padding: 0.8em 1.8em;
+    cursor:pointer;
+    user-select:none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s; /* Safari */
+  }
+  
+  .button:hover {
+    transition-duration: 0.1s;
+    background-color: #d64955;
+  }
+  
+  .button:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 4em;
+    left: 0;
+    top:60%;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+    box-shadow: 0 0 10px 40px white;
+  }
+  
+  .button:active:after {
+    box-shadow: 0 0 0 0 white;
+    position: absolute;
+    border-radius: 4em;
+    left: 0;
+    top:60%;
+    opacity: 1;
+    transition: 0s;
+  }
+  
+  .button:active {
+    top: 60%;
+  }
+ #G4{
+    position: absolute;
+    top: 45%;
+    text-transform: uppercase;
+    color: #ffff;
+   
+ }
+ #G5{
+    position: absolute;
+    top:56%;
+    cursor:pointer;
+    left: 34%
+ }
+ .glow-on-hover {
+    font-weight: 900;
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background:url("https://cdn.pixabay.com/photo/2016/11/21/03/56/landscape-1844226_1280.png");
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 15px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 15px;
+}
+
+.glow-on-hover:active {
+    color: #5f4040
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:url("https://cdn.pixabay.com/photo/2016/11/21/03/56/landscape-1844226_1280.png");
+    left: 0;
+    top: 0;
+    border-radius: 15px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}

@@ -1,0 +1,184 @@
+body{
+    background:url("https://cdn.pixabay.com/photo/2016/11/21/03/56/landscape-1844226_1280.png");
+    color: #ffff;
+}
+.I{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.II{
+    text-transform: uppercase;
+    font-size: larger;
+    font-style: initial;
+    margin-top:-1%;
+    height: 500px;
+    width: 700px;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.II {
+
+    background:url("https://cdn.pixabay.com/photo/2016/11/21/03/56/landscape-1844226_1280.png");
+  }
+#K1{
+    text-align: center;
+    color: rgb(7, 7, 0);
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 1), 
+    0px 0px 10px rgba(255, 255, 255, 1), 
+    0px 0px 15px rgba(255, 255, 255, 1),
+    0px 0px 55px rgba(73, 255, 24, 1),
+    0px 0px 75px rgba(73, 255, 24, 1);
+}
+#K5 #K8{
+    font-weight: 900;
+    color: #ffff;
+    text-transform: uppercase;
+}
+input{
+    background-color:#f8f6f7 ;
+    width: 80px;
+    cursor: pointer;
+    color: #030000;
+}
+input::placeholder{
+    color:#020000;
+}
+input:hover{
+    background-color: #f7d18c;
+}
+.II #K8 {
+    position: relative;
+    margin-top: 1%;
+    right: -10%;
+}
+.II #K5{
+    position: relative;
+    margin-top: 5%;
+    right: -10%;
+}
+.II #K4{
+    position: relative;
+    top: -1%;
+    right: -15%;
+}
+.II #K7{
+    position: relative;
+    margin-top: 2%;
+    right: -15%;
+}
+.II #K3{
+    position: relative;
+    top: -1%;
+    right: -15%;
+}
+.II #K2{
+    position: relative;
+    top: -1%;
+    right: -15%;
+}
+button{
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    will-change: box-shadow,transform;
+    background:url("https://cdn.pixabay.com/photo/2016/11/21/03/56/landscape-1844226_1280.png");
+    box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px rgb(58 65 111 / 50%);
+    padding: 0 32px;
+    border-radius: 6px;
+    color: #fff;
+    height: 48px;
+    font-size: 18px;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+    transition: box-shadow 0.15s ease,transform 0.15s ease;
+    
+}
+button :hover {
+    box-shadow: 0px 4px 8px rgba(246, 246, 247, 0.4), 0px 7px 13px -3px rgba(248, 248, 250, 0.3), inset 0px -3px 0px #f8f8fc;
+    transform: translateY(-2px);
+}
+button:active{
+    box-shadow: inset 0px 3px 7px #3c4fe0;
+    transform: translateY(2px);
+}
+#K6{
+    text-transform: uppercase;
+    position: relative;
+    margin-top: 3%;
+    right: -8%;
+}
+#K11{
+    position: absolute;
+    color: #070000;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 2px rgba(206,89,55,0);
+    font-weight:bolder;
+    top: 80%;
+    right: 37%;
+}
+#K111{
+    position: absolute;
+    color: #070000;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 2px rgba(206,89,55,0);
+    font-weight:bolder;
+    top: 80%;
+    right: 40%;
+}
+#K1111{
+    position:absolute;
+    color: #070000;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 2px rgba(206,89,55,0);
+    font-weight:bolder;
+    top: 80%;
+    right: 40%;
+}
+
+#K16{
+    position:absolute;
+    text-align: center;
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bolder;
+    top: 70%;
+    right: 40%;
+}
+#K17{
+    position: relative;
+    text-align: center;
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bolder;
+    top: 70%;
+    right: 40%;
+}
+#h
+{
+    position: absolute;
+    top: 70%;
+    right: 58%;
+    padding: 1px;
+    width: 100px;
+}
+#m
+{
+    position: absolute;
+    top: 70%;
+    right: 46%;
+    padding: 1px;
+    width: 100px;
+}
+#s
+{
+    position: absolute;
+    top: 70%;
+    right: 33%;
+    padding: 1px;
+    width: 120px;
+}

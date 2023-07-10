@@ -1,0 +1,159 @@
+
+.map{
+    position: relative;
+}
+.Upper1{
+    cursor: pointer;
+    text-transform: uppercase;
+    font-style: oblique;
+    color: firebrick;
+}
+a {
+    text-decoration: none;
+  }
+ #P1{
+    position: absolute;
+    top: 37%;
+    right: 15%;
+    cursor:pointer;
+}
+#P2{
+    position: absolute;
+    top: 103%;
+    right: 33%;
+}
+#P3{
+    position: absolute;
+    top: 57%;
+     right: 82%;
+}
+#P4{
+    position: absolute;
+    top: 37%;
+     right: 82%;
+}
+#P5{
+    position: absolute;
+    top: 17%;
+    right: 75%;
+}
+#P6{
+    position: absolute;
+    top: 67%;
+    right: 13%;
+    cursor:pointer;
+}
+#P7{
+    position: absolute;
+    top: 97%;
+    right: 45%;
+}
+#P8{
+    position: absolute;
+    top: 115%;
+    right: 62%;
+}
+#P10{
+    position: absolute;
+     top: 69%;
+     right: 92%;
+}
+#P11    {
+    position: absolute;
+    top: 120%;
+    right: 52%;
+}
+#P12  {
+    position: absolute;
+    top: 125%;
+    right: 48%;
+}
+#P13  {
+    position: absolute;
+    top: 120%;
+    right: 42%;
+}
+#P14{
+    position: absolute;
+    top: 85%;
+     right: 75%;
+}
+#P15{
+    position: absolute;
+    top: 160%;
+    right: 63%;
+}
+#P16{
+    position: absolute;
+    top: 125%;
+    right: 72%;
+}
+#P17{
+    position: absolute;
+    top: 155%;
+    right: 73%;
+}
+#P18{
+    position: absolute;
+    top: 75%;
+     right: 46%;
+}
+#P19{
+    position: absolute;
+    top: 145%;
+    right: 53%;
+}
+#P20{
+    position: absolute;
+    top: 37%;
+     right: 68%;
+}
+#P21{
+    position: absolute;
+    top: 97%;
+    right: 55%;
+}
+#P22{
+    position: absolute;
+    top: 137%;
+    right: 35%;
+}
+#P23{
+    position: absolute;
+    top: 75%;
+    right: 33%;
+}
+#P24{
+    position: absolute;
+    top: 37%;
+    right: 30%;
+    cursor:pointer;
+}
+#P25{
+    position: absolute;
+    top: 35%;
+    right: 49%;
+    cursor:pointer;
+}
+#P26{
+    position: absolute;
+    top: 145%;
+    right: 63%;
+}
+
+/* button */
+.P27{
+    cursor: pointer;
+    color: antiquewhite;
+    position: absolute;
+    left: 870%;
+    width: 300px;
+    top: 600%;
+    background-color: black;
+    height: 50px;
+    border-radius:10px;
+}
+.P27:hover{
+    background-color: rgb(243, 14, 14);
+    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
+}

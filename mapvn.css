@@ -1,0 +1,25 @@
+#map{
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color: rgb(18, 112, 235);
+}
+.P27{
+    cursor: pointer;
+    color: antiquewhite;
+    position: absolute;
+    left: 73%;
+    width: 300px;
+    top: 218.5%;
+    background-color: black;
+    height: 50px;
+    border-radius:10px;
+}
+#P1{
+    position: absolute;
+    top: 33%;
+    right: 693px;
+    cursor: pointer;
+
+}

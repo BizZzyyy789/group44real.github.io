@@ -1,0 +1,317 @@
+body{
+    /* display: flex;
+    justify-content: center;
+    align-items:center ; */
+    background:url("https://cdn.pixabay.com/photo/2016/11/21/03/56/landscape-1844226_1280.png");
+    /* background-image: url("https://cdn.pixabay.com/photo/2016/11/21/03/56/landscape-1844226_1280.png"); */
+}
+.Upper{
+     position: absolute;
+     overflow: hidden;
+     width: 430px;
+     height: 300px;
+     border-radius: 25px;
+     box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+     top: 25%;
+     right: 43%;
+     
+}
+.Lower  {
+    display: flex;
+    box-shadow: 3px 3px red, -1em 0 .4em olive;
+    transition: transform 0.4s ease-in-out;
+
+}
+img{
+    width: 500px;
+    height: 300px;
+    cursor: pointer;
+}
+.btn{
+    position: absolute;
+    top: 50%;
+}
+.btn.left{
+    left:10px;
+}
+.btn.right{
+    right: 10px;
+}
+.left:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.right:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+}
+
+.Upper-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Upper-2{
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    margin-top:3%;
+    width: 1000px;
+    height: 500px;
+    /* background-color: #3b3a3a; */
+     background-image: url("https://cdn.pixabay.com/photo/2016/11/21/03/56/landscape-1844226_1280.png");
+}
+.P{
+    position: relative;
+    right:-43%;
+    margin: 50px;
+     top: 1.2%;
+}
+#L1{ 
+    border-radius: 10px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 70px;
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/21/03/56/landscape-1844226_1280.png");
+    
+}
+#L2{ 
+    border-radius: 10px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 70px;
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/21/03/56/landscape-1844226_1280.png");
+    
+}
+#L3{ 
+    border-radius: 10px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 70px;
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/21/03/56/landscape-1844226_1280.png");
+    
+}
+#L4{ 
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 70px;
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/21/03/56/landscape-1844226_1280.png");
+    
+}
+.P{
+    &::after {
+        top: 41%;
+        left: 44%;
+        transform: translate(-50%);
+        color: #5509fa;
+        transition: all 0.1s linear;
+      }
+    
+      &::before {
+        content: "";
+        position: relative;
+        display: block;
+        height: 15px;
+        width: 15px;
+        background: #d2bdff;
+        box-shadow: 0px 0px 10px 3px #0ff;
+        margin-left: -8px;
+        margin-top: -8px;
+        opacity: 0;
+        transition: all 0.1s linear;
+        border-radius: 100%;
+        animation: star 1.3s linear infinite;
+      }
+    
+      @keyframes star {
+        0% {
+          margin-left: -8px;
+          margin-top: -8px;
+        }
+        25% {
+          margin-left: 194px;
+          margin-top: -8px;
+        }
+    
+        50% {
+          margin-left: 194px;
+          margin-top: 75px;
+        }
+        75% {
+          margin-left: -8px;
+          margin-top: 75px;
+        }
+        100% {
+          margin-left: -8px;
+          margin-top: -8px;
+        }
+      }
+    
+      &:hover {
+        &::before {
+          opacity: 1;
+          animation: star 1.3s linear infinite;
+        }
+    
+        &::after {
+          content: "G R O U P-4";
+          text-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 20px #82bedc,
+            0 0 30px #82bedc, 0 0 40px #82bedc, 0 0 50px #82bedc, 0 0 60px #82bedc;
+        }
+      }
+    }
+
+
+
+button{
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/21/03/56/landscape-1844226_1280.png");
+    position: absolute;
+    top: 50%;
+    right: 50%;
+}
+#j0{
+    top: 36.5%;
+    width: 320px;
+    padding: 12px;
+    border-radius: 14px;
+    outline: none;
+    border: none;
+    color: rgb(241, 234, 234);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    font-size: medium;
+    cursor: pointer;
+}
+#j1{
+    top: 50%;
+    width: 320px;
+    padding: 12px;
+    border-radius: 14px;
+    outline: none;
+    border: none;
+    color: rgb(241, 234, 234);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    font-size: medium;
+    cursor: pointer;
+}
+  button {
+    background: #444;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    letter-spacing: 0.1rem;
+    font-size: 1rem;
+    padding: 1rem 3rem;
+    transition: 0.2s;
+  }
+  
+  button:hover {
+    letter-spacing: 0.2rem;
+    padding: 1.1rem 3.1rem;
+    background: var(--clr);
+    color: var(--clr);
+    /* box-shadow: 0 0 35px var(--clr); */
+    animation: box 3s infinite;
+  }
+  
+  button::before {
+    content: "";
+    position: absolute;
+    inset: 2px;
+    background: #272822;
+  }
+  
+  button span {
+    position: relative;
+    z-index: 1;
+  }
+  button i {
+    position: absolute;
+    inset: 0;
+  }
+  
+  button i::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    left: 80%;
+    top: -2px;
+    border: 2px solid var(--clr);
+    background: #272822;
+    transition: 0.2s;
+  }
+  
+  button:hover i::before {
+    width: 15px;
+    left: 20%;
+    animation: move 3s infinite;
+  }
+  
+  button i::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    left: 20%;
+    bottom: -2px;
+    border: 2px solid var(--clr);
+    background: #272822;
+    transition: 0.2s;
+  }
+  
+  button:hover i::after {
+    width: 15px;
+    left: 80%;
+    animation: move 3s infinite;
+  }
+  
+  @keyframes move {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes box {
+    0% {
+      box-shadow: #27272c;
+    }
+    50% {
+      box-shadow: 0 0 25px var(--clr);
+    }
+    100% {
+      box-shadow: #27272c;
+    }
+  }
+  .container{
+    position: absolute;
+    display: flex;
+    color: #d2bdff;
+    margin-top:-35%;
+    right: 37%;
+  }
